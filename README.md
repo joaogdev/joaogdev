@@ -83,10 +83,15 @@ ENERGY       idea -> deploy
 04  publicar mais coisa bonita por aqui
 ```
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=joaogdev&show_icons=true&hide_border=true&bg_color=050505&title_color=00D4FF&icon_color=7CFF6B&text_color=FFFFFF" alt="github stats"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaogdev&layout=compact&hide_border=true&bg_color=050505&title_color=00D4FF&text_color=FFFFFF" alt="top languages"/>
-</p>
+### `lab.metrics`
+
+<table>
+  <tr>
+    <td align="center"><b>main stack</b><br/>TypeScript + Python</td>
+    <td align="center"><b>favorite flow</b><br/>idea -> prototype -> deploy</td>
+    <td align="center"><b>style</b><br/>dark UI, neon detail, clean layout</td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/joaogdev">
