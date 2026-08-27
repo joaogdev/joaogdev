@@ -1,138 +1,99 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/joaogdev-banner.svg" width="100%" alt="joaogdev banner"/>
+</p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=290&color=0:050505,45:111827,100:00d4ff&text=JOAO%20GUILHERME&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2100&pause=600&color=00D4FF&center=true&vCenter=true&width=820&lines=transformando+ideias+em+produto;interfaces+limpas+%2B+sistemas+uteis;typescript%2C+python+e+automacao;build.+polish.+ship." alt="typing intro"/>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=25&duration=2400&pause=750&color=00D4FF&center=true&vCenter=true&width=900&lines=BUILDING+DIGITAL+PRODUCTS;TYPESCRIPT+%7C+PYTHON+%7C+WEB+APPS;AUTOMATIONS+AND+SMART+TOOLS;FROM+IDEA+TO+DEPLOY;WELCOME+TO+MY+DEV+SPACE"/>
+<br/>
 
-</div>
+<table>
+  <tr>
+    <td width="58%" valign="top">
 
----
+### `joao.guilherme`
 
-# JOAO DEV CORE
+Eu curto construir coisas que parecem simples por fora, mas resolvem problema de verdade por dentro.
 
-```bash
-╭──────────────────────────────╮
-│        JOAOGDEV v1.0         │
-╰──────────────────────────────╯
-
-Boot sequence started...
-
-████████████████████ 100%
-
-> Developer profile loaded
-> Web app engine online
-> Automation layer active
-> Product builder mode enabled
-> Deploy pipeline warming up
-
-STATUS: ONLINE
-```
-
----
-
-# About Me
+Meu foco hoje fica entre **apps web**, **ferramentas internas**, **automacoes** e produtos pequenos que saem rapido do papel.
 
 ```ts
-class JoaoGuilherme {
-  name = "Joao Guilherme";
-  username = "joaogdev";
-  location = "Brazil";
-  focus = [
-    "Web applications",
-    "SaaS ideas",
-    "Internal tools",
-    "Automation systems",
-    "Clean user experiences"
-  ];
-
-  stack = {
-    languages: ["TypeScript", "Python", "JavaScript"],
-    frontend: ["React", "HTML", "CSS", "Tailwind"],
-    backend: ["Node.js", "APIs", "Automation"],
-    tools: ["Git", "GitHub", "VS Code", "Cloudflare"]
-  };
-
-  mission =
-    "Turn rough ideas into useful, polished software that people can actually use.";
-}
+const joaogdev = {
+  mode: "builder",
+  stack: ["TypeScript", "Python", "JavaScript"],
+  craft: ["UI polish", "SaaS", "Dashboards", "Automation"],
+  vibe: "clean interface, useful system, fast iteration",
+  shipping: true
+};
 ```
 
----
+  </td>
+  <td width="42%" valign="top">
 
-# Tech Stack
+### `status.panel`
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,js,python,react,nodejs,html,css,tailwind,git,github,vscode,cloudflare&perline=6"/>
-
-</div>
-
----
-
-# Project Energy
-
-| Area | What I build |
-|---|---|
-| SaaS and apps | Product ideas, dashboards and useful interfaces |
-| Business tools | CRMs, stock control, finance flows and internal systems |
-| Web experiences | Portfolios, landing pages and branded websites |
-| Automation | Scripts, bots, workflows and smarter repetitive tasks |
-| Experiments | Fast prototypes that turn ideas into something real |
-
----
-
-# Current Mission
-
-```bash
-> Loading roadmap...
-
-[██████████] Web Apps
-[█████████░] TypeScript
-[████████░░] Python
-[█████████░] UI Polish
-[███████░░░] Product Systems
-
-NEXT:
-Ship sharper projects.
-Build cleaner interfaces.
-Keep leveling up.
+```text
+ONLINE       yes
+FOCUS        product + code
+EDITOR       VS Code
+LOCATION     Brazil
+ENERGY       idea -> deploy
 ```
 
----
+<p>
+  <img src="https://img.shields.io/badge/building-web_apps-00D4FF?style=flat-square&labelColor=050505"/>
+  <img src="https://img.shields.io/badge/polishing-interfaces-7CFF6B?style=flat-square&labelColor=050505"/>
+  <img src="https://img.shields.io/badge/automating-workflows-FF3DF2?style=flat-square&labelColor=050505"/>
+</p>
 
-# GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=joaogdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050505&title_color=00d4ff&icon_color=00d4ff&text_color=ffffff"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaogdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=00d4ff&text_color=ffffff"/>
-
-</div>
-
----
-
-# Connect
-
-<div align="center">
-
-<a href="https://github.com/joaogdev">
-<img src="https://img.shields.io/badge/GitHub-050505?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="mailto:jhoaog8@gmail.com">
-<img src="https://img.shields.io/badge/Email-00D4FF?style=for-the-badge&logo=gmail&logoColor=050505"/>
-</a>
-
-</div>
+  </td>
+  </tr>
+</table>
 
 ---
 
-<div align="center">
+### `toolbox`
 
-## "Build it clean. Ship it real."
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nodejs,html,css,tailwind,git,github,vscode,cloudflare&perline=12" alt="tech stack"/>
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=joaogdev&style=for-the-badge&color=00d4ff&label=PROFILE+VIEWS"/>
+---
 
-</div>
+### `things.i.like.to.build`
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:050505,45:111827,100:00d4ff"/>
+<table>
+  <tr>
+    <td width="25%"><b>Dashboards</b><br/>Interfaces para ler, decidir e agir rapido.</td>
+    <td width="25%"><b>CRMs</b><br/>Fluxos internos para loja, estoque e financeiro.</td>
+    <td width="25%"><b>Websites</b><br/>Paginas com visual forte e objetivo claro.</td>
+    <td width="25%"><b>Automacoes</b><br/>Bots, scripts e tarefas repetitivas trabalhando sozinhas.</td>
+  </tr>
+</table>
+
+---
+
+### `current.quest`
+
+```text
+01  deixar projetos mais apresentaveis
+02  melhorar produto, UI e experiencia
+03  transformar ideias pequenas em sistemas reais
+04  publicar mais coisa bonita por aqui
+```
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=joaogdev&show_icons=true&hide_border=true&bg_color=050505&title_color=00D4FF&icon_color=7CFF6B&text_color=FFFFFF" alt="github stats"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaogdev&layout=compact&hide_border=true&bg_color=050505&title_color=00D4FF&text_color=FFFFFF" alt="top languages"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/joaogdev">
+    <img src="https://img.shields.io/badge/github-joaogdev-050505?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="mailto:jhoaog8@gmail.com">
+    <img src="https://img.shields.io/badge/email-bora_construir-00D4FF?style=for-the-badge&logo=gmail&logoColor=050505"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=joaogdev&style=for-the-badge&color=00d4ff&label=visitas"/>
+</p>
