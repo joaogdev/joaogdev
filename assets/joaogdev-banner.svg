@@ -1,62 +1,57 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#050505"/>
-      <stop offset="0.48" stop-color="#07131f"/>
-      <stop offset="1" stop-color="#101013"/>
+    <linearGradient id="surface" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070707"/>
+      <stop offset="0.55" stop-color="#0B0D12"/>
+      <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="neon" x1="170" y1="84" x2="1120" y2="338" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00D4FF"/>
-      <stop offset="0.5" stop-color="#7CFF6B"/>
-      <stop offset="1" stop-color="#FF3DF2"/>
+    <linearGradient id="line" x1="245" y1="102" x2="1107" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5E7EB"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.831 0 0 0 0 1 0 0 0 0.72 0"/>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22 0 0 0 0 0.74 0 0 0 0 0.97 0 0 0 0.45 0"/>
       <feBlend in="SourceGraphic"/>
     </filter>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M 44 0 L 0 0 0 44" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1"/>
+    <pattern id="dots" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" opacity="0.08"/>
     </pattern>
   </defs>
 
-  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
-  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="26" fill="url(#surface)"/>
+  <rect width="1280" height="360" rx="26" fill="url(#dots)"/>
 
-  <path d="M-40 365 C170 250 259 438 430 299 C618 146 704 246 844 155 C996 56 1097 98 1324 -24" stroke="url(#neon)" stroke-width="3" stroke-opacity="0.75" filter="url(#glow)"/>
-  <path d="M-20 312 C141 236 248 350 386 236 C530 117 690 159 826 111 C1004 48 1094 134 1308 36" stroke="#00D4FF" stroke-opacity="0.22" stroke-width="2"/>
-
-  <g opacity="0.96">
-    <rect x="72" y="62" width="1136" height="296" rx="24" fill="#070A0F" fill-opacity="0.76" stroke="url(#neon)" stroke-opacity="0.62"/>
-    <rect x="96" y="86" width="294" height="34" rx="17" fill="#101820" stroke="#00D4FF" stroke-opacity="0.35"/>
-    <circle cx="121" cy="103" r="6" fill="#FF3DF2"/>
-    <circle cx="143" cy="103" r="6" fill="#FFD166"/>
-    <circle cx="165" cy="103" r="6" fill="#7CFF6B"/>
-    <text x="194" y="109" fill="#B9F6FF" font-family="JetBrains Mono, Consolas, monospace" font-size="15">~/joaogdev/lab</text>
+  <g opacity="0.72" filter="url(#softGlow)">
+    <path d="M759 92L846 133L936 84L1038 148L1141 117" stroke="url(#line)" stroke-width="2.5"/>
+    <path d="M760 242L850 197L935 238L1038 191L1141 226" stroke="url(#line)" stroke-width="2.5"/>
+    <path d="M846 133L850 197M936 84L935 238M1038 148L1038 191" stroke="#38BDF8" stroke-width="1.6" opacity="0.55"/>
+    <circle cx="759" cy="92" r="6" fill="#E5E7EB"/>
+    <circle cx="846" cy="133" r="6" fill="#38BDF8"/>
+    <circle cx="936" cy="84" r="6" fill="#A7F3D0"/>
+    <circle cx="1038" cy="148" r="6" fill="#38BDF8"/>
+    <circle cx="1141" cy="117" r="6" fill="#E5E7EB"/>
+    <circle cx="760" cy="242" r="6" fill="#A7F3D0"/>
+    <circle cx="850" cy="197" r="6" fill="#E5E7EB"/>
+    <circle cx="935" cy="238" r="6" fill="#38BDF8"/>
+    <circle cx="1038" cy="191" r="6" fill="#A7F3D0"/>
+    <circle cx="1141" cy="226" r="6" fill="#38BDF8"/>
   </g>
 
-  <text x="96" y="188" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="0">joaogdev</text>
-  <text x="101" y="236" fill="#9BEFFF" font-family="JetBrains Mono, Consolas, monospace" font-size="25" font-weight="700">product builder / web apps / automations</text>
-  <text x="101" y="278" fill="#D8E7EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21">Interfaces limpas, sistemas uteis e ideias saindo do rascunho.</text>
+  <rect x="72" y="64" width="82" height="82" rx="20" fill="#F8FAFC"/>
+  <text x="92" y="116" fill="#070707" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">JG</text>
 
-  <g font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">
-    <rect x="842" y="105" width="270" height="54" rx="15" fill="#0D1520" stroke="#00D4FF" stroke-opacity="0.55"/>
-    <text x="864" y="138" fill="#00D4FF">01</text>
-    <text x="910" y="138" fill="#FFFFFF">TypeScript</text>
+  <text x="72" y="203" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="850" letter-spacing="0">Joao Guilherme</text>
+  <text x="76" y="248" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="24" font-weight="700">AI Engineer / product builder</text>
+  <text x="76" y="288" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">building useful systems with clean interfaces, automation and applied AI.</text>
 
-    <rect x="842" y="178" width="270" height="54" rx="15" fill="#0D1520" stroke="#7CFF6B" stroke-opacity="0.55"/>
-    <text x="864" y="211" fill="#7CFF6B">02</text>
-    <text x="910" y="211" fill="#FFFFFF">Python</text>
-
-    <rect x="842" y="251" width="270" height="54" rx="15" fill="#0D1520" stroke="#FF3DF2" stroke-opacity="0.55"/>
-    <text x="864" y="284" fill="#FF3DF2">03</text>
-    <text x="910" y="284" fill="#FFFFFF">Cloud + UI</text>
-  </g>
-
-  <g opacity="0.85" filter="url(#glow)">
-    <circle cx="1164" cy="92" r="4" fill="#00D4FF"/>
-    <circle cx="1141" cy="324" r="5" fill="#7CFF6B"/>
-    <circle cx="762" cy="78" r="4" fill="#FF3DF2"/>
-    <circle cx="650" cy="332" r="3" fill="#00D4FF"/>
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="700">
+    <rect x="76" y="308" width="146" height="30" rx="15" fill="#111827" stroke="#334155"/>
+    <text x="94" y="328" fill="#E5E7EB">typescript</text>
+    <rect x="234" y="308" width="106" height="30" rx="15" fill="#111827" stroke="#334155"/>
+    <text x="252" y="328" fill="#E5E7EB">python</text>
+    <rect x="352" y="308" width="150" height="30" rx="15" fill="#111827" stroke="#334155"/>
+    <text x="370" y="328" fill="#E5E7EB">automation</text>
   </g>
 </svg>
