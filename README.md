@@ -44,7 +44,7 @@ shipping:   small ideas that can become real products
 
 <p align="center">
   <a href="mailto:joaogdevv@gmail.com">
-    <img src="https://img.shields.io/badge/email-jhoaog8%40gmail.com-F8FAFC?style=for-the-badge&labelColor=0B0D12&color=F8FAFC" alt="Email"/>
+    <img src="https://img.shields.io/badge/email-joaogdevv%40gmail.com-F8FAFC?style=for-the-badge&labelColor=0B0D12&color=F8FAFC" alt="Email"/>
   </a>
   <img src="https://komarev.com/ghpvc/?username=joaogdev&style=for-the-badge&color=38BDF8&label=views" alt="Profile views"/>
 </p>

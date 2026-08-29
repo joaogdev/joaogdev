@@ -39,8 +39,15 @@
     <circle cx="1141" cy="226" r="6" fill="#38BDF8"/>
   </g>
 
-  <rect x="72" y="64" width="82" height="82" rx="20" fill="#F8FAFC"/>
-  <text x="92" y="116" fill="#070707" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">JG</text>
+  <g filter="url(#softGlow)">
+    <rect x="72" y="64" width="82" height="82" rx="24" fill="#0B0D12" stroke="#334155" stroke-width="1.5"/>
+    <path d="M101 101L126 86M101 101L127 123M126 86L127 123" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="101" cy="101" r="8" fill="#F8FAFC"/>
+    <circle cx="126" cy="86" r="7" fill="#38BDF8"/>
+    <circle cx="127" cy="123" r="7" fill="#A7F3D0"/>
+    <path d="M94 77H132" stroke="#F8FAFC" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round"/>
+    <path d="M94 134H132" stroke="#F8FAFC" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round"/>
+  </g>
 
   <text x="72" y="203" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="850" letter-spacing="0">Joao Guilherme</text>
   <text x="76" y="248" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="24" font-weight="700">AI Engineer / product builder</text>
