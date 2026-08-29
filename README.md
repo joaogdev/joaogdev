@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/ai-engineer-banner.svg" width="100%" alt="Joao Guilherme - AI Engineer"/>
+  <img src="./assets/ai-mark-banner.svg" width="100%" alt="Joao Guilherme - AI Engineer"/>
 </p>
 
 <p align="center">
