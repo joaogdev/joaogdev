@@ -1,0 +1,36 @@
+<svg width="360" height="260" viewBox="0 0 360 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="32" y1="28" x2="332" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0D12"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="42" y1="46" x2="318" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22 0 0 0 0 0.74 0 0 0 0 0.97 0 0 0 0.55 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect x="24" y="20" width="312" height="220" rx="24" fill="url(#panel)" stroke="#263241"/>
+  <rect x="48" y="48" width="264" height="144" rx="16" fill="#050505" stroke="#1F2937"/>
+  <circle cx="70" cy="69" r="4" fill="#F87171"/>
+  <circle cx="86" cy="69" r="4" fill="#FBBF24"/>
+  <circle cx="102" cy="69" r="4" fill="#34D399"/>
+  <text x="66" y="107" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="13">agent.plan()</text>
+  <text x="66" y="133" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="13">model.run(input)</text>
+  <text x="66" y="159" fill="#A7F3D0" font-family="JetBrains Mono, Consolas, monospace" font-size="13">ship(product)</text>
+  <g filter="url(#glow)">
+    <path d="M232 82L268 104L252 151L210 150L196 108Z" stroke="url(#stroke)" stroke-width="2.5"/>
+    <path d="M232 82L252 151M268 104L210 150M196 108L252 151" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="232" cy="82" r="5" fill="#F8FAFC"/>
+    <circle cx="268" cy="104" r="5" fill="#38BDF8"/>
+    <circle cx="252" cy="151" r="5" fill="#A7F3D0"/>
+    <circle cx="210" cy="150" r="5" fill="#38BDF8"/>
+    <circle cx="196" cy="108" r="5" fill="#A7F3D0"/>
+  </g>
+  <rect x="72" y="208" width="216" height="10" rx="5" fill="#1F2937"/>
+  <rect x="72" y="208" width="142" height="10" rx="5" fill="url(#stroke)"/>
+</svg>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/ai-mark-banner.svg" width="100%" alt="Joao Guilherme - AI Engineer"/>
+  <img src="./assets/ai-hero.svg" width="100%" alt="Joao Guilherme - AI Engineer"/>
 </p>
 
 <p align="center">
@@ -19,6 +19,8 @@ const joaogdev = {
 };
 ```
 
+<img align="right" width="330" src="./assets/ai-workspace.svg" alt="AI workspace illustration"/>
+
 ### What I Build
 
 | Focus | Output |
@@ -27,6 +29,8 @@ const joaogdev = {
 | Products | SaaS ideas, dashboards and tools people can actually use |
 | Interfaces | clean web experiences with a modern visual identity |
 | Systems | CRMs, operations tools and business logic that saves time |
+
+<br clear="right"/>
 
 ### Stack
 

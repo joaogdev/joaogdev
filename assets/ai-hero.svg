@@ -1,0 +1,64 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="0.46" stop-color="#0A0F1A"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="aqua" x1="128" y1="82" x2="1084" y2="364" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.42" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 206) rotate(90) scale(142)">
+      <stop stop-color="#38BDF8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22 0 0 0 0 0.74 0 0 0 0 0.97 0 0 0 0.55 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#F8FAFC" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
+  <rect x="744" y="0" width="536" height="420" fill="url(#core)"/>
+
+  <g opacity="0.92">
+    <text x="76" y="106" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="18" font-weight="700">JOAOGDEV / APPLIED AI</text>
+    <text x="72" y="193" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="850">Joao Guilherme</text>
+    <text x="76" y="248" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="28" font-weight="800">AI Engineer + Product Builder</text>
+    <text x="77" y="292" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">building agents, automations and clean software that feels sharp.</text>
+  </g>
+
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="700">
+    <rect x="76" y="328" width="122" height="34" rx="17" fill="#111827" stroke="#334155"/>
+    <text x="96" y="350" fill="#E5E7EB">agents</text>
+    <rect x="210" y="328" width="152" height="34" rx="17" fill="#111827" stroke="#334155"/>
+    <text x="230" y="350" fill="#E5E7EB">automation</text>
+    <rect x="374" y="328" width="112" height="34" rx="17" fill="#111827" stroke="#334155"/>
+    <text x="394" y="350" fill="#E5E7EB">apps</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M814 214C864 132 941 105 1017 127C1093 149 1137 217 1119 288" stroke="url(#aqua)" stroke-width="2.5" opacity="0.78"/>
+    <path d="M794 280C853 252 884 197 923 170C969 139 1031 159 1078 97" stroke="#38BDF8" stroke-width="2" opacity="0.46"/>
+    <path d="M849 113L923 170L986 102L1054 190L1120 154" stroke="url(#aqua)" stroke-width="2.5"/>
+    <path d="M849 301L923 240L986 312L1054 220L1120 268" stroke="url(#aqua)" stroke-width="2.5"/>
+    <path d="M923 170V240M986 102V312M1054 190V220" stroke="#A7F3D0" stroke-width="1.6" opacity="0.52"/>
+    <circle cx="849" cy="113" r="7" fill="#F8FAFC"/>
+    <circle cx="923" cy="170" r="8" fill="#38BDF8"/>
+    <circle cx="986" cy="102" r="7" fill="#A7F3D0"/>
+    <circle cx="1054" cy="190" r="8" fill="#38BDF8"/>
+    <circle cx="1120" cy="154" r="7" fill="#F8FAFC"/>
+    <circle cx="849" cy="301" r="7" fill="#A7F3D0"/>
+    <circle cx="923" cy="240" r="8" fill="#F8FAFC"/>
+    <circle cx="986" cy="312" r="7" fill="#38BDF8"/>
+    <circle cx="1054" cy="220" r="8" fill="#A7F3D0"/>
+    <circle cx="1120" cy="268" r="7" fill="#38BDF8"/>
+  </g>
+</svg>
